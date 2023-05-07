@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: black;
+}
+.otp-container {
+  @apply flex justify-between gap-2 border-2;
+}
+.otp-container input {
+  @apply outline-none rounded-md !mr-0 py-5 flex-1;
+}
+
+.react-tel-input .form-control {
+  @apply !w-full py-5 !text-base;
+}
